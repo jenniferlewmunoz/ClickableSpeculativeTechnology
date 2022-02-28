@@ -11,7 +11,6 @@
   (1) allocate and set variables from a .csv file
   (2) draw all the clickables that are visible in a single function
 
-
 ***********************************************************************************/
 
 // the manager class

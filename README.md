@@ -1,31 +1,15 @@
-# Clickable Examples
-#### by Scott Kildall
-www.kildall.com
+# Edible Food Packaging: Clickables Example
+#### by Jennifer Lew Munoz
 
 
 ## Overview
-These are some samples for the p5.clickable library (https://github.com/Lartu/p5.clickable)
+This interactive web app allows you to see the different kinds of edible food packaging options to replace single use plastic food packaging. There are three major kinds of edible food packaging:
 
-## To improve things
-I have forked the p5.clickable library
-https://github.com/scottkildall/p5.clickable
+   - Liquid represented by the water droplet
+   - Cold Foods represented by the snowflake
+   - Hot Food represented by the thermometer
 
+Depending on your choice between using edible food packaging vs single use plastic packaging the "Danger Meter" will increase or decrease. The danger meter represents the environmental dangers that comes with the amount of plastic littering our world.
 
-## Things I have noticed
-(1) For the Clickable class, it will always draw and do mouseX and mouseY calculations from the upper-left corner, so you need to make sure that you are in imageMode(CORNER) and rectMode(CORNER), otherwise it won't interact correctly
-
-(2) If you want background transparent PNGs, set the .color field of the clickable object to be "#00000000"
-
-
-
-
-## Examples
-
-(1) SimplePNGButton: Displays a single PNG button with a cat image, alert to show it was clicked. Uses the onHover and onOutside functions to tint the image
-
-(2) TextButtons: array of text buttons with labels. And more importantly, how to get at a specific button so they can all share the same callback handler.
-
-(3) ManyPNGButtons: An array of PNG buttons. This one is not yet implemented and is just a copy of SimplePNGButton.
-
-
-
+## Example
+Click the water droplet to choose between: an edible liquid pod, or a plastic water bottle. At the top of the program you will se the options "Edible Packaging" or "Plastic." If you choose "Plastic," the "Danger Meter" will increase, and if you choose "Edible Packaging," the "Danger Meter" will decrease.
